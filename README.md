@@ -17,6 +17,16 @@ pip install -r requirements.txt
 
 ## Generating Fourier Sensitivity Plots
 Please see the jupyter notebook "Fourier-Sensitivity.ipynb" for examples of plotting the Fourier Sensitivity of pre-trained models. 
-Run all cells to re-generate the plots (be sure to change the path to the dataset variable, i.e., PATH\_TO\_IMAGENET)
+Run all cells to re-generate the plots (be sure to change the path to the dataset, i.e., PATH\_TO\_IMAGENET)
 
 ## Fourier Regularization
+We have provided a reference implementation of Fourier-regularizer training on CIFAR10 (train.py). Please use the commands below. 
+```
+# standard training (CIFAR10)
+python train.py
+
+# Fourier-regularized training (CIFAR10)
+python train.py --regularizer {LSF,MSF,ASF} --regularier_lambda 0.5
+
+```
+
