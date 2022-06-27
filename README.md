@@ -29,5 +29,5 @@ python train.py --regularizer {LSF,MSF,ASF} --regularier_lambda 0.5
 ```
 
 ## Acknowledgement
-CIFAR10 training code: https://github.com/kuangliu/pytorch-cifar
+CIFAR10 training code is based on https://github.com/kuangliu/pytorch-cifar
 
