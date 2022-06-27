@@ -8,17 +8,17 @@ Please see the paper for details.
 <!-- ![Fourier-sensitivity](github-image.png) -->
 <img src="github-image.png" width="750px">
 
-### Installing libraries
+## Installing libraries
 The code was run with Python3.8
-
 ```
 pip install -r requirements.txt
 ```
-### Generating Fourier Sensitivity plots
+
+## Generating Fourier Sensitivity plots
 Please see the jupyter notebook "Fourier-Sensitivity.ipynb" for examples of plotting the Fourier Sensitivity of pre-trained models. 
 Run all cells to re-generate the plots (be sure to change the path to the dataset, i.e., PATH\_TO\_IMAGENET)
 
-### Fourier Regularized training
+## Fourier Regularized training
 We have provided a reference implementation of Fourier-regularizer training on CIFAR10 (train.py). Please use the commands below. 
 ```
 # standard training (CIFAR10)
@@ -26,8 +26,8 @@ python train.py
 
 # Fourier-regularized training (CIFAR10)
 python train.py --regularizer {LSF,MSF,ASF} --regularier_lambda 0.5
-
 ```
-### Acknowledgement
+
+## Acknowledgement
 CIFAR10 training code: https://github.com/kuangliu/pytorch-cifar
 
