@@ -19,7 +19,7 @@ Please see the jupyter notebook "Fourier-Sensitivity.ipynb" for examples of plot
 Run all cells to re-generate the plots (be sure to change the path to the dataset, i.e., PATH\_TO\_IMAGENET)
 
 ## Fourier Regularized training
-We have provided a reference implementation of Fourier-regularizer training on CIFAR10 (train.py). Please use the commands below. 
+We have provided a reference implementation of Fourier-regularized training on CIFAR10 (train.py). Please use the commands below. 
 ```
 # standard training (CIFAR10)
 python train.py
