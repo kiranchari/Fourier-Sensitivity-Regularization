@@ -1,9 +1,7 @@
-## Fourier Sensitivity and Regularization of Computer Vision
+## Fourier Sensitivity and Regularization of Computer Vision Models
 
-Official code repository for the paper "Fourier Sensitivity and Regularization of Computer Vision".
-
-Fourier Sensitivity of computer vision models is based on a rigorously defined measure of sensitivity to input frequencies.
-Please see the paper for details.
+This repository contains code for work presented in [Fourier Sensitivity and Regularization of Computer Vision Models](https://openreview.net/forum?id=VmTYgjYloM), published at TMLR 2022. Fourier Sensitivity of computer vision models is based on a rigorously defined measure of sensitivity
+to input frequencies. Please see the paper for details.
 
 <!-- ![Fourier-sensitivity](github-image.png) -->
 <img src="github-image.png" width="750px">
