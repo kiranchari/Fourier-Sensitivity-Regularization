@@ -60,10 +60,10 @@ class FourierRegularizer(object):
 
         if self.mode == 'LSF':
             SFS_LOSS = SFS[int(N/6):].sum()
-
         elif self.mode == 'MSF':
             SFS_LOSS = SFS[:int(N/6)].sum() + SFS[int(N/3):].sum()
-
+        elif self.mode == 'HSF': # penalize low and medium freqs
+            SFS_LOSS = SFS[:int(N/3)].sum()
         elif self.mode == 'ASF':
             entropy = 0
             

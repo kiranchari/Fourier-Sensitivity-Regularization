@@ -19,7 +19,7 @@ from regularizers import FourierRegularizer
 
 parser = argparse.ArgumentParser(description='PyTorch CIFAR10 Training')
 parser.add_argument('--lr', default=0.1, type=float, help='learning rate')
-parser.add_argument('--regularizer', default=None, type=str, choices = ['LSF', 'MSF', 'ASF'], help='Fourier Regularizer')
+parser.add_argument('--regularizer', default=None, type=str, choices = ['LSF', 'MSF', 'HSF', 'ASF'], help='Fourier Regularizer')
 parser.add_argument('--regularizer_lambda', default=0.5, type=float, help='regularizer weight')
 
 parser.add_argument('--resume', '-r', action='store_true',
