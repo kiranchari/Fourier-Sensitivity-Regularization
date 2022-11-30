@@ -23,7 +23,7 @@ We have provided a reference implementation of Fourier-regularized training on C
 python train.py
 
 # Fourier-regularized training (CIFAR10)
-python train.py --regularizer {LSF,MSF,ASF} --regularier_lambda 0.5
+python train.py --regularizer {LSF,MSF,HSF,ASF} --regularier_lambda 0.5
 ```
 
 ## Acknowledgement
