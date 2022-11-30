@@ -30,3 +30,4 @@ python train.py --regularizer {LSF,MSF,ASF} --regularier_lambda 0.5
 
 ```
 
+Code Reference: https://github.com/kuangliu/pytorch-cifar
